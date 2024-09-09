@@ -152,7 +152,7 @@ app.use('/docs/redoc', redoc({
 // HomePath:
 app.all('/', (req, res) => {
     res.send({
-        error: false,
+        error: true,
         message: 'Welcome to PERSONNEL API',
         api: {
             documents: {
