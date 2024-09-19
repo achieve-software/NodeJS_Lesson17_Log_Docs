@@ -11,7 +11,7 @@ const PersonnelSchema = new mongoose.Schema({
     departmentId: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Department',
-        required: false,
+        required: true,
     },
     username: {
         type: String,
